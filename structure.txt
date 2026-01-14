@@ -1,0 +1,22 @@
+full-stack-proj/
+├── backend/                # Server-side code
+│   ├── config/             # Configuration files
+│   │   └── config.env      # Environment variables
+│   ├── models/             # Database schemas
+│   │   ├── User.js         # User data structure
+│   │   └── Transaction.js  # Transaction data structure
+│   ├── routes/             # API endpoints
+│   │   ├── auth.js         # Login/registration
+│   │   ├── transactions.js # CRUD operations
+│   │   └── categories.js   # Category management
+│   ├── middleware/ # Custom functions
+│   │   └── auth.js         # Authentication check
+│   └── server.js           # Main server file
+├── frontend/               # Client-side code
+│   ├── public/                     # Static files
+│   ├── src/                # Source code
+│   │   ├── components/     # React components
+│   │   ├── context/        # State management
+│   │   └── index.js        # App entry point
+│   └── package.json        # Frontend dependencies
+└── package.json            # Root dependencies
