@@ -1,6 +1,9 @@
 import React, { createContext, useContext, useReducer, useEffect } from 'react';
 import axios from 'axios';
 
+axios.defaults.baseURL = "https://finlit-backend-jhpn.onrender.com";
+
+
 const AuthContext = createContext();
 
 const initialState = {
