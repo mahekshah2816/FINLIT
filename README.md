@@ -1,3 +1,7 @@
+
+DEPLOYED LINK: https://finlit-pi.vercel.app/
+
+
 # 💰 FinLit - Student Budget & Expense Tracker
 
 A full-stack web application built with the MERN stack to help students and users track their income, expenses, manage budgets, and visualize spending trends.
