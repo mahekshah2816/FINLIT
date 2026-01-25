@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { useTransaction } from '../context/TransactionContext';
 import { useAuth } from '../context/AuthContext';
 import { PieChart, Pie, Cell, BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import { FiPlus, FiTrendingUp, FiTrendingDown, FiDollarSign } from 'react-icons/fi';
+import { FiPlus, FiTrendingUp, FiTrendingDown } from 'react-icons/fi';
 import moment from 'moment';
 
 const Dashboard = () => {
