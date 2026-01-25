@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { useTransaction } from '../context/TransactionContext';
-import { FiSave, FiX, FiPlus } from 'react-icons/fi';
+import { FiSave, FiX } from 'react-icons/fi';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
-import moment from 'moment';
+
 
 const AddTransaction = () => {
   const navigate = useNavigate();
